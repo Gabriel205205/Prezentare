@@ -1,0 +1,174 @@
+ /* Stiluri pentru întreaga pagină */
+ body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Stiluri pentru antetul (header) paginii */
+header {
+    background-color: #5737b8;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Stiluri pentru meniul de navigare */
+nav {
+    background-color: #5737b8;
+    text-align: center;
+    font-weight: bold; 
+    transition: color 0.5s;
+}
+
+nav a:hover {
+    color: #4400ff; /
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Stiluri pentru conținutul paginii */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stiluri pentru secțiuni */
+.section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #5737b8;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: #ffffff;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #5737b8;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Stilizare pentru footer */
+footer {
+    background-color: #5737b8;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Stilizare pentru butoanele de social media */
+.social-media-button {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media-button a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0077B5; /* Culoare pentru LinkedIn */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Stilizare pentru fiecare buton în parte */
+.facebook-button a {
+    background-color: #1877F2; /* Culoare pentru Facebook */
+}
+
+.twitter-button a {
+    background-color: red; /* Culoare pentru YouTube */
+}
+
+.instagram-button a {
+    background-color: pink; /* Culoare pentru Instagram */
+}
+
+.exem {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: calc(33.33% - 20px);
+}
+
+.exem img {
+    max-width: 100%;
+    
+}S
+
+.exem h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+ /* Stiluri CSS pentru containerul pozei */
+ .image-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Stiluri CSS pentru pagina HTML suprapusă */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Culorile de fundal pot fi personalizate */
+    color: white; /* Culoarea textului paginii HTML */
+    text-align: center;
+    padding: 20px;
+}
